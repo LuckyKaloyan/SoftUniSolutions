@@ -1,0 +1,1 @@
+SELECT first_name,last_name FROM employees WHERE salary ORDER BY salary DESC LIMIT 5;

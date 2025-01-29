@@ -1,0 +1,32 @@
+summary {
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold
+  }
+  summary::before {
+    content: '>';
+    display: inline-block;
+    transition: transform 0.3s ease;
+    margin-right: 5px;
+  }
+  details[open] summary::before {
+    transform: rotate(90deg); 
+  }
+
+  .firstrow{
+    border: 1px solid black;
+    padding: 1.1em;
+  }
+
+details{
+    border: 1px solid black;
+    padding: 1.1em;
+    border-top: 0px solid black;
+}
+*{
+    font-family: sans-serif;
+}
+html{
+    margin: 2em 10em 4em 10em;
+
+}

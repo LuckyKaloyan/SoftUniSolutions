@@ -1,0 +1,1 @@
+CALL find_customer(2);

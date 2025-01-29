@@ -1,0 +1,40 @@
+body{
+    margin-left: 30px;
+}
+p{
+    margin: 10px;
+    padding-top: 10px;
+}
+section > p:first-of-type {
+    padding-top: 35px;
+}
+
+.highlighted + p{
+    padding-top: 0px;
+    padding: 2px;
+color: green;
+background-color: tomato;
+}
+li{
+    list-style: none;
+}
+.list:nth-of-type(2){
+    color: tomato;
+}
+.link{
+    color: darkblue;
+}
+a{   color: darkblue;
+     text-decoration: none;
+}
+
+a:visited {
+    color: inherit; 
+}
+ul li.link:nth-of-type(3) a:visited {
+    color: green;
+}
+
+div p{
+    color: skyblue;
+}

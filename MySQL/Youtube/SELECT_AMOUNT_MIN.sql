@@ -1,0 +1,2 @@
+SELECT MIN(amount) AS MINIMUM_AMOUNT
+FROM transactions;

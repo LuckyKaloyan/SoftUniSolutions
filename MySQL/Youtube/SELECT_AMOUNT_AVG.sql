@@ -1,0 +1,2 @@
+SELECT AVG(amount) AS AVERAGE_AMOUNT
+FROM transactions;

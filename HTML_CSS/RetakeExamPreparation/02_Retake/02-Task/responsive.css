@@ -1,0 +1,127 @@
+@media(max-width: 600px){
+
+    .home-left, .home-right, .home-container01{
+        display: none;
+    }
+    
+   .home-navbar *{
+        padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+        margin: 0;
+    }
+    .home-navbar{
+        border-bottom: 10x solid white;
+    }
+
+    .home-container {
+        padding-top: 50px;
+        margin-top: -50px;
+    }
+    .home-navbar1{
+        border-bottom: 10px solid white;
+        margin-bottom: 10px;
+    }
+
+    .home-container03 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-hero1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-hero1 > img{
+        padding-top: 1vh;
+    }
+      
+    .home-cards-container{
+        grid-gap: 0;
+        gap: 7vw;   
+        justify-content: center;
+    }
+
+    .category-card-image{
+        width: 200px;
+        height: 200px;
+    }
+    .home-full-width-banner{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .home-left4 {
+        margin-top: -2vh;
+        padding-top: 2.5vh;
+        width: 100%;
+    }
+    .max-width-container {
+        padding: 0;
+        margin: 0;
+    }
+    .home-container08{
+        display: flex;
+      margin-left: 5vw;
+        justify-content:start;
+        width: 100vw;
+        height: auto;
+    }
+
+    .blog-post-card-blog-post-card > img{
+        width: 95vw;
+        max-width: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-left4{
+        width: 100vw;
+    }
+
+    .home-navbar{
+        margin: 0;
+        position: relative;
+    }
+
+
+
+    .home-footer {
+        flex: 0 0 auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border-color: #e5e5e5ff;
+        border-width: 1px;
+        flex-direction: column;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        padding-left: 20px;
+      }
+      .home-footer1 {
+        width: 100%;
+        display: flex;
+        max-width: 1328px;
+        align-items: flex-start;
+        padding-top: 96px;
+        flex-direction: column-reverse;
+        padding-bottom: 96px;
+        justify-content: space-between;
+        padding-left: 20px;
+      }
+      .home-links-container {
+        flex-direction: column;
+        padding-left: 20px;
+      }
+}

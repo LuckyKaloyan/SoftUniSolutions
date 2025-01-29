@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    opacity: 97%;
+}
+
+body {
+    background-color: lightgray;
+    width: 100%;
+}
+
+section {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 5%;
+}
+
+footer,
+header,
+.middle,
+.sidebar,
+main {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.box {
+    width: 90%;
+}
+
+section {
+    padding: 0.1rem;
+    background-color: white;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
+    gap: 1%;
+    border: 0;
+}
+
+footer,
+header {
+    padding: 2%;
+    margin: 2%;
+}
+
+
+.section-one .middle div,
+.section-two .middle div {
+    flex-grow: 1; 
+    padding: 2%;
+}
+.section-two .middle main,
+.section-one .middle main{
+    flex-grow: 2; 
+    padding: 2%;
+}

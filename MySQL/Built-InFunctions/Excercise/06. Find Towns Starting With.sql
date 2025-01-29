@@ -1,0 +1,1 @@
+SELECT town_id,name FROM towns WHERE Substring(name,1,1) IN ("M","m","K","k","b","B","E","e") ORDER BY name ASC;

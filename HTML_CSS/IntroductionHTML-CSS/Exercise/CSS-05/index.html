@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Complex Selectors</title>
+</head>
+<body>
+<section>
+    <p>
+    This paragraph is a direct descendant of a section.
+    </p>
+    <article>
+    <p>
+This paragraph is within an article inside a section.
+</p>
+</article>
+<article class="highlighted">
+    <p>
+This paragraph is within a highlighted article.
+</p>
+</article>
+<p>
+This paragraph is in an article following a highlighted article.
+</p>
+</section>
+<ul>
+    <li class="list">List Item 1</li>
+    <li class="list">List Item 2</li>
+    <li class="list">List Item 3</li>
+    <li class="list">List Item 4 with links:
+        <ul><li class="link"><a href="">Link 1</a></li>
+            <li class="link"><a href="">Link 2</a></li>
+            <li class="link"><a href="">Link 3</a></li>
+        </ul>
+    </li>
+
+
+</ul>
+<div>
+<h2>Siblings following this h2 are styled</h2>
+<p>
+A sibling paragraph.
+</p>
+<p>
+Another sibling paragraph.
+</p>
+</div>
+</body>
+</html>

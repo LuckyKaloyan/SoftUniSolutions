@@ -1,0 +1,13 @@
+html{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color:#333;
+}
+body{
+    border: 1px grey solid;
+    font-family: Lato, sans-serif;
+    padding: 20px;
+    width: 50%;
+}

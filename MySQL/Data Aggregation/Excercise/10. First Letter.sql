@@ -1,0 +1,1 @@
+SELECT SUBSTRING(first_name,1,1)AS first_letter FROM wizzard_deposits WHERE deposit_group = 'Troll Chest' GROUP BY SUBSTRING(first_name,1,1) ORDER BY SUBSTRING(first_name,1,1)  ASC  ;

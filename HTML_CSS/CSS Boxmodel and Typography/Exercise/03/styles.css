@@ -1,0 +1,17 @@
+div{
+    border: solid black 2px;
+    padding: 2em;
+    margin: 2em;
+}
+
+div > *{
+    border: solid blue 0.2em;
+    text-align: center;
+    padding: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold;
+}
+html{
+    border: solid green 2px;
+}

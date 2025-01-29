@@ -1,0 +1,6 @@
+p:not(:first-child) {
+    background-color: yellow;
+  }
+span{
+    background-color: red;
+}

@@ -1,0 +1,1 @@
+SELECT  REPLACE  (title, "The","***")AS title  FROM books WHERE substring(title,1,3) = "the";

@@ -1,0 +1,30 @@
+html, body {
+    height: 99.7%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid green;
+}
+
+main, header, footer {
+    border: 2px solid blue;
+    display: flex;
+    margin: 1rem;
+    width: 94%;
+    padding: 2rem;
+}
+
+main {
+    flex-grow: 1;
+    height: 70%;
+}
+
+footer, header {
+    height: 10%;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

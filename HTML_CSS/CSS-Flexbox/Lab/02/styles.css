@@ -1,0 +1,27 @@
+.flex-container {
+    padding: 2em;
+    border: solid 2px blue;
+    display: flex;
+    
+}
+div > div {
+    background-color: #eee;
+    padding: 20px;
+    border: solid 2px #000;
+}
+*{
+    box-sizing: border-box;
+}
+
+.flex-default{
+flex-direction: default;
+}
+.flex-reverse {
+    flex-direction: row-reverse;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-column-reverse{
+    flex-direction: column-reverse;
+}

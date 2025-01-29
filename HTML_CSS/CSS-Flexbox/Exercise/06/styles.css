@@ -1,0 +1,94 @@
+
+html, body{
+    background-color: grey;
+    color: gray;
+}
+.things{
+    width: 65%;
+}
+.greendot{
+    width: 20%;
+}
+.insidehalf, .insidewhole{
+    background: white;
+}
+
+.wholeframe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.name{
+    font-weight: bold;
+    color: black;
+    font-size: 1.4rem;
+}
+.leftside{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.rightside {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 1rem;
+    height: auto;
+}
+.insidewhole{
+    padding: 0rem 1rem 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: auto;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(53, 53, 51, 0.5);
+}
+
+.things{
+    width: 75%;
+    height: 100%;
+}
+
+.name{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.insidehalf{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 1rem;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(53, 53, 51, 0.5);
+    
+}
+.greendot-left{
+    height: 6rem;
+    width: 6rem;
+    background-color: green;
+    border-radius: 50%;
+    border: solid 0.2rem white;
+    box-shadow: 0 0 0.6rem black;
+    display: flex;
+    align-items: center;
+}
+.symbolframe{
+    font-size: 2.5rem;
+}
+.symbol{
+    color: black;
+}
+.greendot-right{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-color: green;
+    border-radius: 50%;
+    border: solid 0.2rem white;
+    box-shadow: 0 0 0.6rem black;
+}

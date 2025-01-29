@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Roboto', Roboto;
+}
+body{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftbox{
+    width: 9rem;
+    height: 8rem;
+    border: 1px solid black;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    
+}
+.leftbox h1{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Abril Fatface', Abril Fatface;
+    width: 60%;
+    padding: 1rem 1rem 0.3rem 1rem;
+}
+.leftbox h2{
+    margin-right: 3rem;
+    padding-top: 0.3rem;
+    margin-left: 1rem;
+    font-weight: 100;
+    border-top: white 2px solid;
+    font-family: 'Roboto', Roboto;
+    font-size: 11px;
+    transform: scaleX(0.9);
+}
+.upperPart{
+    background-image: url('image/image.jpg');
+    width: 100%;
+    background-size:cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    padding-top: 1px;
+    display: flex;
+    flex-direction: column;
+
+}
+.rightbox{
+    width: 15.3rem;
+    height: 13.85rem;
+    align-items: end;
+    text-align: end;
+    padding: 1rem;
+    box-shadow: 1.5px 3.5px 6px rgba(0, 0, 0, 0.5); 
+    background: linear-gradient(to right, #9D938B, #C9C7C6);
+    color: white;
+    margin-bottom: 19rem;
+}
+.rightbox  p{
+    font-size: 0.78rem;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.7);
+    font-family: 'Roboto', Roboto;
+}
+.rightbox > i{
+    margin-top: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    margin-bottom: 1rem;
+    color: #8D8581;
+}
+.rightboxPos{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 1rem;
+}
+.lowerPart{
+    display: flex;
+}
+.leftText{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F0F3;
+   
+}
+.leftText {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F0F3;
+}
+
+.leftText div{
+
+    padding-left: 3.1vw;
+    padding-right: 3.1vw;
+    padding-bottom: 6.6vw;
+    padding-top: 6.6vw;
+   
+}
+.leftTextUp{
+    display: flex;
+    flex-direction: column;
+}
+.leftTextUp *{
+    padding: 0.5rem;
+}
+#contact{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: -10rem;
+}
+.leftTextUp h1{
+    padding: 0;
+}
+.coordinates *{
+    padding-left: 0.5rem;
+    font-size: 1rem;
+
+}
+.leftTextDown strong{
+    padding-left: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.edno{
+    font-size: 0.8rem;
+}
+.leftTextDown{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.leftTextDown div{
+    padding: 0;
+    margin: 0;
+}
+
+.rightText{
+    background-color: #BAB1AD;
+}
+.rightText div{
+   width: 24vw;
+   padding-left: 2rem;
+   padding-right: 3.5rem;
+   padding-bottom: 4rem;
+   padding-top: 2.6rem;
+}
+.rightText div h1 {
+    font-size: 77px;
+    font-weight: 100;
+    color: white;
+    font-family: 'Roboto', Roboto;
+    font-weight: lighter;
+}
+.rightText div p {
+    font-weight: 100;
+    font-family: 'Roboto', Roboto;
+    font-weight: lighter;
+}
+.leftTextUp p i {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 0.22rem;
+    border-radius: 20vw;
+}
+.leftTextUp{
+    padding-bottom: 0;
+    margin-bottom: -5rem;
+}
+.leftText div h1{
+    font-size: 2rem;
+}
+.leftTextDown{
+    border-top: 3px solid #BAB1AD; 
+}
+.upperPart{
+    flex-grow: 839;
+}
+.lowerPart{
+    flex-grow:793;
+}
+
+
+#Email{
+    padding: 1rem 7rem 1rem 1rem;
+    background-color: gray;
+    border: none;
+    border-radius: 0.7vw;
+    font-size: 1rem;
+   
+}
+#Email::placeholder{
+    color: white;
+    font-size: 1rem;
+    text-align: start;
+}
+
+button{
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 0.7vw;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1rem;
+    margin-left: 2rem;
+    text-align: start;
+}
+#kiufte{
+    margin-top: 5rem;
+}
+#kebabtan{
+    padding: 2rem 4rem;
+}
+#bot{
+    padding: 2rem 4rem;
+    margin: 0;
+}

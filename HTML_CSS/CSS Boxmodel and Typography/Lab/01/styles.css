@@ -1,0 +1,47 @@
+.block {
+    display: block;
+    border: 2px solid black;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.block p {
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.inline {
+    display: block;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+.inline h2{
+    margin-left: 20px;
+}
+.inline span {
+    display: inline;
+    border: 1px solid black;
+    margin-left: 20px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+
+.inline-block {
+    display: block;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.inline-block p {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 5px;
+}

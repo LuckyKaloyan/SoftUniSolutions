@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font Awesome Icon ::after Example</title>
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-2j7M1/2t3cdaZPStY21o+kbsvS2Bj7deiWJLWqqKesmy4P8IqWgE9DFlbMqYvthPUtay3LVuzKw29oXdglKb9Q==" crossorigin="anonymous" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+
+    .container {
+      position: relative;
+    }
+
+    .container::after {
+      font-family: 'Font Awesome 5 Free';
+      content: '\f004'; /* Unicode for the heart icon */
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 24px;
+      vertical-align: middle;
+      color: #ff6347; /* Adjust icon color as needed */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p>This is a paragraph.</p>
+  </div>
+</body>
+</html>

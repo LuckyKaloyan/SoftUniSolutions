@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstrow{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    margin-right: 1rem;
+}
+main{
+    padding-top: 0;
+    width: 43%;
+    border: black solid 1px;
+    border-radius: 1vw;
+  
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.texted{
+    width: 50%;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#FirstName, #LastName{
+    width: 100%;
+    border-radius: 1vw;
+    border: solid 1px black;
+    padding: 0.7em;
+}
+#Email, #Password, #ConfirmPassword{
+    width: 100%;
+    border-radius: 1vw;
+    border: solid 1px black;
+    padding: 0.7em;
+}
+
+h1{
+    margin-top: -20rem;
+    font-weight: 200;
+}
+.texted > *{
+    margin-top: 1.3rem;
+}
+.field > div{
+    margin-top: 1rem;
+}
+#Kebap{
+    font-size: 0.7rem;
+}
+main{
+    background-image: url('images/form-background.png');
+    background-size: 100% 100%;
+}
+
+body {
+    background: url('images/background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+.register{
+    padding: 1em 1.5em 1em 1.5em;
+    background-color: rgb(167, 2, 2);
+   color: white;
+   font-weight: 300;
+    border-radius: 1.5vw;
+    border: none;
+}

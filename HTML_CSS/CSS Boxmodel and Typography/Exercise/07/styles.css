@@ -1,0 +1,17 @@
+nav{
+   margin: 30px;
+}
+a{
+    padding:20px;
+    border-radius: 100%;
+    background-color: gray;
+}
+body{
+    max-width:300px;
+}
+h1{
+    padding-left: 30px;
+}
+a{
+    color: black;
+}

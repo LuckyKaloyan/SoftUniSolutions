@@ -1,0 +1,28 @@
+.flex-container {
+    width: 160px;
+    padding: 1em;
+    border: solid 2px blue;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap; 
+}
+
+.flex-container .flex-item {
+    background-color: #eee;
+    padding: 20px;
+    border: solid 2px #000;
+    width: 150px;  
+    flex-shrink: 0;
+}
+
+.flex-shrink-1 .flex-item {
+    flex-shrink: 1;  
+}
+
+.flex-shrink-2 .flex-item {
+    flex-shrink: 0;  
+}
+
+.flex-shrink-3 .flex-item:nth-child(2) {
+    flex-shrink: 1;  
+} 

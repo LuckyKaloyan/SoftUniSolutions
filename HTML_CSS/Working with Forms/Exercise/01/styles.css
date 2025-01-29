@@ -1,0 +1,33 @@
+input{
+    padding: 0.6em;
+}
+.login{
+    border-bottom: solid 1px black;
+    padding-bottom: 1em;
+    width: 3em;
+    margin-bottom: 1em;
+}
+body{
+    padding: 2em;
+    border: 1px solid black;
+    background-color: white;
+    margin: 2em;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+html{
+    background-color: lightgray;
+}
+button{
+    margin-top: 1em;
+    padding: 0.8em 5em 0.8em 5em;
+    color: white;
+    background: orange;
+    border: 0;
+}
+label::after{
+    content: '*';
+    color: red;
+}

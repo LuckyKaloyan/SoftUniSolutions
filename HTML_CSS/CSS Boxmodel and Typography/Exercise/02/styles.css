@@ -1,0 +1,16 @@
+*{
+    border: 2px solid black;
+    padding: 30px;
+    text-align: center;
+    margin: 15px;
+}
+body{
+    border: 2px solid blue;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+html{
+    border: 2px solid green;
+    border-bottom: 1px solid lightgreen;
+}

@@ -1,0 +1,1 @@
+SELECT employee_id, job_title, employees.address_id, addresses.address_text FROM employees JOIN addresses ON addresses.address_id = employees.address_id ORDER BY address_id ASC LIMIT 5;

@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.border-radius1 {
+    border-radius: 10px;
+}
+
+.border-radius2 {
+    border-radius: 20px;
+}
+
+.border-radius3 {
+    border-radius: 50%;
+}
+
+.border-radius4 {
+    border-radius: 30px 5px;
+}
+
+.border-radius5 {
+    border-radius: 15px 30px 45px 60px;
+}
+
+.border-radius6 {
+    border-radius: 50% 20%;
+}
+
+.border-radius7 {
+    border-radius: 25px 0 25px 0;
+}
+
+.border-radius8 {
+    border-radius: 5px 10px 20px 40px;
+}
+
+.outline1 {
+    outline: 2px solid black;
+}
+
+.outline2 {
+    outline: 4px dotted red;
+}
+
+.outline3 {
+    outline: 6px dashed blue;
+}
+
+.outline4 {
+    outline: 3px double green;
+}
+
+.outline5 {
+    outline: 5px groove purple;
+}
+
+.outline6 {
+    outline: 4px ridge orange;
+}
+
+.outline7 {
+    outline: 3px inset brown;
+}
+
+.outline8 {
+    outline: 6px outset pink;
+}

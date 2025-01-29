@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: lightgray;
+}
+
+.field {
+    margin: 64px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 770px;
+    height: 291.2px;
+    background-color: grey;
+    border: 1px solid darkgray;
+    border-bottom: 3px solid darkgray;
+    border-radius: 1%;
+}
+
+.row12 {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 32%;
+    width: 100%;
+}
+
+.row1, .row2{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+}
+
+.row1element {
+    padding: 4.8px 12.8px 4.8px 12.8px;
+    margin: 4.8px;
+    border: 1px solid darkgray;
+    border-bottom: 3px solid darkgray;
+    border-radius: 7%;
+}
+
+
+
+.row2element {
+    padding: 7.2px 14.72px 7.2px 14.72px;
+    margin: 4.8px;
+    border: 1px solid darkgray;
+    border-bottom: 3px solid darkgray;
+    border-radius: 7%;
+}
+
+.row2element .backspace {
+    padding: 0;
+}
+
+.row34 {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3.2px 0rem 16px 0rem;
+    height: 32%;
+    width: 100%;
+}
+
+.row3element {
+    padding: 7.2px 14.72px 7.2px 14.72px;
+    margin: 4.8px;
+    border: 1px solid darkgray;
+    border-bottom: 3px solid darkgray;
+    border-radius: 7%;
+}
+
+.row3elementEnter {
+    padding: 7.2px 14.72px 7.2px 14.72px;
+    margin: 4.8px;
+    border: 1px solid darkgray;
+    border-bottom: 3px solid darkgray;
+    border-radius: 7%;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 0%;
+    position: relative;
+}
+.enter::after{
+    content: "empty";
+    border: 1px solid darkgray;
+    border-bottom: 3px solid darkgray;
+    border-top: lightgrey 1px solid;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+    border-right: 1px solid darkgray;
+    background-color: lightgrey;
+    width: 60.8px;
+    height: 45.6px;
+    color: lightgrey;
+    position: absolute;
+    right:  -1px;
+    top: 100%;
+}
+
+.row4element {
+    padding: 7.2px 14.72px 7.2px 14.72px;
+    margin: 4.8px;
+    border: 1px solid darkgray;
+    border-bottom: 3px solid darkgray;
+    border-radius: 7%;
+}
+
+.enter,
+.tab {
+    padding: 0 0.6rem 0 0.5rem;
+}
+
+.row56 {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 32%;
+    width: 100%;
+    margin: 4.8px 0rem 4.8px 0rem;
+    padding-bottom: 4.8px;
+}
+
+.row5element {
+    padding: 7.2px 14.72px 7.2px 14.72px;
+    margin: 4.8px;
+    border: 1px solid darkgray;
+    border-bottom: 3px solid darkgray;
+    border-radius: 7%;
+}
+
+.row6element {
+    padding: 7.2px 27.2px 7.2px 27.2px;
+    margin: 4.8px 4.8px 0rem 4.8px;
+    border: 1px solid darkgray;
+    border-bottom: 3px solid darkgray;
+    border-radius: 7%;
+}
+
+.leftshift {
+    padding-left: 6.4px;
+    padding-right: 6.4px;
+}
+
+.rightshift {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.space {
+    padding-left: 59.2px;
+    padding-right: 59.2px;
+}
+
+.row1element,
+.row2element,
+.row3elementEnter,
+.row3element,
+.row4element,
+.row5element,
+.enter,
+.emptybox,
+.row6element {
+    background-color: white;
+}
+
+.grey {
+    background-color: lightgrey;
+}

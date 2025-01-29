@@ -1,0 +1,1 @@
+SELECT town_id,name FROM towns WHERE Substring(name,1,1) NOT IN ("R","r","B","b","D","d") ORDER BY name ASC;

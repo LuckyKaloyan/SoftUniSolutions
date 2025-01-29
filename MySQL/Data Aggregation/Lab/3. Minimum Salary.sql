@@ -1,0 +1,1 @@
+SELECT department_id, MIN(salary) AS 'Min Salary' FROM employees WHERE salary > 800 GROUP BY department_id LIMIT 1;

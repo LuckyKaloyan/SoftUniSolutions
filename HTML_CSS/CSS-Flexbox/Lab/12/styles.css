@@ -1,0 +1,34 @@
+.flex-container{
+    width: 400px;
+    padding: 1em;
+    border: solid 2px blue;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.flex-container .flex-item {
+    background-color: #eee;
+    padding: 20px;
+    border: solid 2px #000;
+}
+
+.custom-order .flex-item:nth-child(1){
+   order: 5;
+}
+.custom-order .flex-item:nth-child(2){
+    order: 3;
+ }
+ .custom-order .flex-item:nth-child(3){
+    order: 1;
+ }
+ .custom-order .flex-item:nth-child(4){
+    order: 6;
+ }
+
+ .custom-order .flex-item:nth-child(5){
+    order: 2;
+ }
+ .custom-order .flex-item:nth-child(6){
+    order: 4;
+ }

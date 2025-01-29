@@ -1,0 +1,24 @@
+h1{
+    text-align: 28px;
+}
+
+header{
+    p{
+        font-style: italic;
+    }
+    h1{
+        size: 28px;
+    }
+}
+
+p{
+    size: 24;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background:#CCCCCC;
+}
+section{
+    margin-left: 20px;
+}

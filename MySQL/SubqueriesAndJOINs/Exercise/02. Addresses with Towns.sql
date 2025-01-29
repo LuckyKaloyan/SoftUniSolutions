@@ -1,0 +1,1 @@
+SELECT first_name, last_name,name AS 'town', addresses.address_text FROM employees JOIN addresses ON employees.address_id = addresses.address_id JOIN towns ON towns.town_id = addresses.town_id ORDER BY first_name, last_name ASC LIMIT 5;

@@ -1,0 +1,2 @@
+SELECT MAX(amount) AS MAXIMUM_AMOUNT
+FROM transactions;

@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 1vw;
+    font-weight: 300;
+    box-sizing: border-box;
+     }
+    
+    .zero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        border-radius: 1em;
+        border: 1px solid black;
+        margin-left: 15%;
+        margin-top: 7%;
+        padding: 0;
+        width: 70%;
+        box-shadow: 0 1em 1em 0 rgb(150, 150, 150);
+    }
+    
+    .buttons{
+        display: flex;
+        gap: 13%;
+    }
+    
+    .green{
+        background-color: green;
+        border-radius: 1px solid black;
+    }
+    
+    .gray{
+        background-color: gray;
+        border-radius: 1px solid black;
+    }
+    
+    .gray, .green{
+        border-radius: 1vw;
+        width: 15vw;
+        padding: 0.4vw;
+        border: 0px;
+        outline: 1px solid black;
+    }
+    
+    .gen{
+        width: 80%;
+    }
+    
+    .genderleft{
+        padding-right: 30%;
+    }
+    
+    h1{
+        font-size: 1.5em;
+    }
+    
+    h2{
+        font-size: 1.2em;
+    }
+    
+    img{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        z-index: -1;
+    
+    }
+    
+    
+    .second{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        flex-grow: 1;
+    }
+    
+    .paded{
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    
+    .first{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        flex-grow: 1;
+    }
+    
+    .pounds{
+        padding-right: 14vw;
+    }
+    
+    .calc{
+        background-color: rgb(0, 68, 255);
+        padding-top: 0.4vw;
+        padding-bottom: 0.4vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        border:0px;
+        color: white;
+        margin-top: 3vh;
+        border-radius: 1vw;
+    }

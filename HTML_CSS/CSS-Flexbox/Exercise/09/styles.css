@@ -1,0 +1,28 @@
+body{
+    background-color: lightgray;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15%;
+  
+}
+div{
+    font-family: Roboto;
+    background-color: white;
+    width: 30%;
+    height: 66%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: block;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 2rem;
+    margin-left: -3rem;
+    margin-top: -6rem;
+    border-radius: 1%;
+}
+
+p{
+    padding: 0.6rem 0rem 0.6rem 0rem;
+}

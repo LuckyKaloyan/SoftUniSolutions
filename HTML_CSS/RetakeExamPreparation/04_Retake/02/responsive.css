@@ -1,0 +1,106 @@
+@media (max-width:600px){
+    .site-main {
+        margin: 0px;
+    }
+    
+.site-navigation{
+    display: none;
+}
+
+.entry-header-description{
+
+font-family: "Lobster", cursive;
+color: #41cfcf;
+font-size: 1.4rem;
+position: absolute;
+top: 40px;
+left: 93px;
+}
+.entry-header-title{
+    font-size: 4rem;
+}
+
+.button{
+    appearance: normal;
+    display: flex;
+    padding: 0.6rem;
+ 
+}
+.site-logos {
+    padding: 0px;
+}
+.site-logos-container {
+    text-align: center;
+    min-width: 0px;
+    max-width: 600px;
+}
+
+.site-information-image {
+  
+    display: none;
+}
+.site-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+p {
+    display: flex;
+    margin:auto;
+    unicode-bidi: normal;
+}
+.site-information-text > .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.site-form-container > h2{
+    font-size: 0.6rem;
+}
+form > p{
+    display: flex;
+    flex-direction: column;
+}
+ .site-form input {
+display: flex; 
+}
+.site-form{
+    margin-top: 0px;
+}
+input{
+    width: 100%;
+}
+form > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.site-posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+footer > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.site-blog-container{
+    margin-top: 0px;
+}
+}

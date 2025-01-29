@@ -1,0 +1,16 @@
+div p{
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+    box-sizing:border-box;
+   
+}
+.visible{
+    overflow: visible;
+}
+.hidden{
+    overflow: hidden;
+}
+.scroll{
+    overflow: scroll;
+}

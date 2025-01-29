@@ -1,0 +1,1 @@
+SELECT deposit_group, SUM(deposit_amount) FROM wizzard_deposits GROUP BY deposit_group ORDER BY SUM(deposit_amount) ASC;

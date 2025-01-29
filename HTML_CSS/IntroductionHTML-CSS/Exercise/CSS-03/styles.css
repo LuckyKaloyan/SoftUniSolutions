@@ -1,0 +1,36 @@
+body{
+   padding: 20px;
+   border: solid 2px black;
+   padding-bottom: 15%;
+}
+.highlighted{
+    color: skyblue;
+}
+.special{
+    background-color: orange;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: lightgreen;
+    box-shadow: 0 0 5px grey;
+    padding: 10px;
+}
+p{
+    font:bold;
+}
+li{
+    font:bold;
+    color:rgb(5, 160, 180);
+}
+li+li{ color:black
+}
+li+li+li{
+    color:red;
+    font-style: italic;
+}
+input.specificClass{
+    size: 15px;
+margin: 2px;
+border: solid 2px green;
+font-size: 12px;
+padding: 5px;
+}

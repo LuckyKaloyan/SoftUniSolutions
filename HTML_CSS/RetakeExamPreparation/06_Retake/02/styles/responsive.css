@@ -1,0 +1,108 @@
+
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1em;
+    }
+
+    nav p {
+        font-size: 24px;
+        text-align: center;
+        margin:auto;
+    }
+
+    nav ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 1rem;
+    }
+
+    nav ul li {
+        margin-bottom: 0.5em;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+
+    header div {
+        padding: 6em 1em;
+        text-align: start;
+        background-image: url(dancing-girl.png);
+        background-size: cover;
+
+    }
+
+    header div h1 {
+        font-size: 40px;
+    }
+    .trainings{
+        display: flex;
+        flex-direction: column;
+    }
+
+   .trainings div {
+        width: 70%;
+    }
+    
+    .instructors p{
+width: 90%;
+font-size: 0.85rem;
+    }
+    .instructors-pic *{
+        display: flex;
+        flex-direction: column;
+       margin: auto;
+    }
+    .classes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .classes li{
+        width: 40%;
+        display: flex;
+        margin: auto;
+
+    }
+    .classes h2 {
+        margin: auto;
+    }
+
+    .classes ul :nth-child(2){
+        margin-bottom: 1.4rem;
+    }
+    
+    .getInTouch{
+        flex-direction: column;
+    }
+
+    .map img {
+        transform: none;
+        position: initial;
+    }
+    .getInTouch form input,
+    .getInTouch textarea {
+        width: 70vw;
+    }
+    .about{
+        width: 80vw;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper section:nth-child(3){
+        position: relative;
+        left:40vw;
+        bottom: 43.5vh;
+    }
+}

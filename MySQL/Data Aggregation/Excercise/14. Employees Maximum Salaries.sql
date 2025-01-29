@@ -1,0 +1,1 @@
+SELECT department_id, MAX(salary) FROM employees GROUP BY department_id HAVING MAX(salary) < 30000 OR MAX(salary) > 70000 ORDER BY department_id ASC;

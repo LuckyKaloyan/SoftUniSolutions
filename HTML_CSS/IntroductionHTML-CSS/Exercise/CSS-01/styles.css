@@ -1,0 +1,25 @@
+h1{
+    color: black;
+}
+p{
+    font-size: medium;
+}
+
+.highlight{
+    background-color: aqua;
+}
+.main-tittle{
+    color: tomato;
+}
+.special-paragraph{
+    font-style: italic
+}
+ul{
+    font-style: oblique;
+}
+li{
+    color: green;
+}
+div{
+    background: rebeccapurple;
+}
